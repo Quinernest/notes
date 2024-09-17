@@ -1,0 +1,135 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DEFBE9;
+   
+}
+.navbar {
+    background: #32BD8F;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #38D39F;
+    color: black;
+}
+.container1{
+    width: 90%;
+    max-width: 600px;
+    background-color: #32BD8F;
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container1 h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.container1 img{
+    max-width: 200px; /* Set maximum width for the logo */
+    height: auto; /* Allow the height to adjust proportionally */
+    display: block; /* Ensures the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.container1 p {
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem
+}
+.cons {
+    
+    padding: 100px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem; 
+    display: flex;
+    align-items: center; /* vertically center the items */
+    justify-content: space-around; /* horizontally distribute the items */
+}
+/* forms */
+form {
+    width: 400px;
+    margin: 50px auto; /* Center the container */
+    background-color: #fff;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: #32BD8F;
+    padding: 20px;
+    border-radius: 20px;
+
+    
+    
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+
+}
+
+input[type="submit"] {
+    background-color: transparent; /* Set background color to transparent */
+    border: none; /* Add border */
+    color: black; /* Text color */
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #DEFBE9; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
+.title {
+    margin: 0;
+    
+    font-weight: 700;
+    
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.subtitle {
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 80%;
+    text-align: center;
+    margin-top: 10px;
+}
+.left{
+    float: left;
+}
+
